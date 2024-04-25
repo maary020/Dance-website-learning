@@ -1,0 +1,542 @@
+/* NavBAR */
+/* .modal-box{
+position: fixed;
+bottom:0%;
+background-color: white;
+width: 100%;
+text-align: center;
+
+} */
+.nav__bar {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .container{
+    max-width: 1200px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+.nav_list ul {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+
+}
+
+.nav_list li {
+    margin-left: 25px;
+    transition: 1s;
+
+}
+
+.logo img {
+    cursor: pointer;
+
+}
+
+.nav_list li:hover {
+    background-color: #003c61;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    transition: 1s;
+}
+
+.search-icon {
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+/* END OF THE NavBAR */
+
+
+/* MAIN MENU */
+
+.main-bg img {
+    width: 100%;
+    height: 90%;
+    margin-top: 30px;
+}
+
+.main__menu {
+    margin-top: 100px;
+}
+
+.main__bar {
+    display: flex;
+    margin-top: -45%;
+    justify-content: space-around;
+}
+
+.main__menu h1 {
+    font-size: 100px;
+    color: #003c61;
+    margin-top: 20px;
+}
+
+.main__menu p {
+    margin-top: -41px;
+}
+
+.red-btn {
+    cursor: pointer;
+    background-color: #ff5333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 170px;
+    height: 48px;
+    font-size: 18px;
+}
+
+.blue-btn {
+    cursor: pointer;
+    background-color: #003c61;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 170px;
+    height: 48px;
+    font-size: 18px;
+    margin-left: 10px;
+    transition: 1s;
+}
+
+.button-side {
+    cursor: pointer;
+    margin-top: -13%;
+    margin-left: 70px;
+}
+
+.main__bar img {
+    margin-top: 30px;
+}
+
+.blue-btn:hover {
+    background-color: #ff5333;
+    transition: 1s;
+}
+
+/* END OF THE MAIN MENU */
+
+/* WELCOME-SIDE */
+.welcome-side h1 {
+    text-align: center;
+    margin-top: 20%;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.welcome-side p {
+    text-align: center;
+    justify-content: center;
+}
+
+.sign-up {
+    cursor: pointer;
+    background-color: #003c61;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 170px;
+    height: 48px;
+    font-size: 18px;
+    justify-content: center;
+    margin-left: 44%;
+    margin-top: 20px;
+    transition: 1s;
+}
+
+.sign-up:hover {
+    background-color: #ff5333;
+    transition: 1s;
+}
+
+/* END OF WELCOME-SIDE */
+
+/* categories-SIDE */
+.categories {
+    display: flex;
+    margin-top: 30px;
+}
+
+.cat_red {
+    background-color: #ff5333;
+    width: 365px;
+    height: 180px;
+    margin-left: 30px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.cat_red p {
+    font-size: 20px;
+    padding-top: 60px;
+    color: white;
+}
+
+.cat_item {
+    background-color: #b7b7b7;
+    width: 365px;
+    height: 180px;
+    margin-left: 30px;
+    border-radius: 6px;
+    text-align: center;
+    transition: 1s;
+}
+
+.cat_item:hover {
+    background-color: #ff5333;
+    transition: 1s;
+}
+
+.cat_item p {
+    font-size: 20px;
+    padding-top: 60px;
+    color: white;
+}
+
+.classes__side {
+    display: flex;
+}
+
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-d-f {
+    display: flex;
+    flex-direction: column;
+}
+
+.category_img img {
+    width: 332px;
+    height: 420px;
+    float: right;
+
+
+}
+
+.read-more {
+    cursor: pointer;
+    background-color: #003c61;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 170px;
+    height: 48px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.read-more:hover {
+    background-color: #ff5333;
+    transition: 1s;
+}
+
+.head-text {
+    margin-left: 30px;
+    font-size: 40px;
+    font-weight: lighter;
+    margin-bottom: -8px;
+}
+
+/* the end of categories-SIDE */
+
+
+/* ballet-SIDE */
+.ballet img {
+    width: 100%;
+
+}
+
+.container {
+    text-align: center;
+    margin-top: -43%;
+}
+
+.click-btn {
+    cursor: pointer;
+    background-color: #003c61;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 170px;
+    height: 48px;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 30px;
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.click-btn:hover {
+    background-color: #ff5333;
+    transition: 1s;
+}
+
+/* END OF ballet-SIDE */
+
+/* OPENING HOURS-SIDE */
+.openin-hours {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.container h1{
+    font-weight: lighter;
+}
+
+/* END OF OPENING HOURS-SIDE */
+
+
+.hip-hop {
+    width: 17%;
+    color: #4c4c4e;
+    font-size: 20px;
+    margin-left: 0px;
+}
+
+.hip-hop p{
+    margin: 20px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 24px;
+}
+/* .hr-line{
+    background-color: #7f9db0;
+    height: 1px;
+    width: 650px;
+    margin-top: 32px;
+}
+
+hr{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+} */
+
+.time-line{
+    display: flex;
+    justify-content: space-around;
+}
+.openin-hours h1{
+    font-weight: lighter;
+}
+
+/*SHORTCODE*/
+.short__code{
+    text-align: center;
+    margin-top: 80px;
+}
+
+.short__code h1{
+    font-weight: lighter;
+}
+
+.short_c{
+    margin-left: 17%;
+}
+
+.heading_one{
+    display: flex;
+    margin-top: 90px;
+}
+
+.heading_one h1{
+    margin-left: 30px;
+    font-size: 40px;
+}
+.heading_one p{
+    margin-left: 30px;
+    margin-top: -5px;
+}
+   .heading-pic img{
+    height: 187.7px;
+    width: 222px;
+    margin-top: -25px;
+ }
+ .heading-text{
+    width: 500px;
+   margin-left: 10px;
+   background-color: #ece9e1;
+   width: 888px;
+   height: 162px;
+   border-radius: 6px;
+ }
+
+ .heading_two{
+    margin-top: 70px;
+    display: flex;
+}
+
+.heading_two h1{
+    margin-left: 30px;
+    font-size: 40px;
+}
+.heading_two p{
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+.pic_two img{
+    height: 169.78px;
+    width: 180px;
+    margin-top: -7px;
+ }
+
+
+ .heading_three{
+    margin-top: 70px;
+    display: flex;
+}
+
+.heading_three h1{
+    margin-left: 30px;
+    font-size: 40px;
+}
+.heading_three p{
+    margin-left: 30px;
+    margin-top: -5px;
+}
+
+.pic_three img{
+    height: 169.78px;
+    width: 180px;
+    margin-top: -7px;
+ }
+/*END OF SHORTCODE*/
+
+.tesminonial{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: lighter;
+}
+
+.tesminonial h1{
+    font-weight: lighter;
+    font-size: 50px;
+}
+.orange{
+    width: 250px;
+    height: 8px;
+    background-color: #ff5333;
+}
+.enrol h2{
+    text-align: center;
+    margin-top: 80;
+    font-weight: lighter;
+}
+
+.orange{
+    margin-left: 42.5%;
+    border-radius: 8px;
+}
+
+.enrol p{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contact__side{
+    padding-left: 20px;  
+}
+
+
+.contact__map{
+    display: flex;
+    justify-content: space-between;
+    margin: right 20px;;
+    margin-top: 55px;
+}
+.map{
+    width: 50%;
+}
+
+.send{
+    cursor: pointer;
+    background-color: #ff5333;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 150px;
+    height: 48px;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+}  
+
+.contact-end{
+    background-color: rgb(38, 37, 37);
+    width: 1fr;
+    height: 500px;
+    margin-top: 20px;
+}
+
+.info-side{
+    display: flex;
+    color: white;
+    justify-content: center;
+    justify-content: space-evenly; 
+}
+
+.adress{
+    margin-top: 150px;
+}
+
+.o__time{
+    margin-top: 150px;
+}
+
+.newsletter{
+    margin-top: 150px;
+}
+
+.subscribe{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 52px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.email{
+    width: 350px;
+    height: 52;
+}
+
+input{
+    width: 350px;
+    height: 52;
+    border: none;
+}
+
+.blck-end{
+    background-color: black;
+    width: 1fr;
+    height: 60px;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.blck-end p{
+    color: white;
+    padding-top: 20px;
+}
+
